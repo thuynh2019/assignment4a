@@ -1,1 +1,46 @@
+html {
+  font-family: sans-serif;
+}
 
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+article {
+  width: auto;
+  height: auto;
+  margin: 20px;
+  position: absolute;
+}
+
+address {
+  position:absolute;
+  bottom: auto;
+  right: auto;
+}
+
+h1 {
+  position: absolute;
+  top: auto;
+  left: auto;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+article {
+  background: url(images/top-image.png) no-repeat;
+  background: url(images/top-image.png) no-repeat, url(images/bottom-image.png) no-repeat bottom;
+  background-color: white;
+  border-top: red;
+  border-bottom: red;
+}
+
+h1 {
+  background-image: url(images/logo.png);
+  border-radius: 60px;
+  box-shadow: 5px 5px 5px black;
+}
